@@ -1,0 +1,486 @@
+command,intent
+toggle airplane mode,airplane_mode  
+deactivate Bluetooth,bluetooth_off
+disable Bluetooth,bluetooth_off
+turn off Bluetooth,bluetooth_off
+activate Bluetooth,bluetooth_on
+enable Bluetooth,bluetooth_on
+turn on Bluetooth,bluetooth_on
+brighten the lights,brighten_lights  
+decrease brightness,brightness_down
+turn down brightness,brightness_down
+increase brightness,brightness_up
+turn up brightness,brightness_up
+change wallpaper,change_wallpaper  
+check my messages,check_messages  
+look at my messages,check_messages  
+read my messages,check_messages  
+review my messages,check_messages  
+see my messages,check_messages  
+check my schedule,check_schedule  
+look at my schedule,check_schedule  
+review my schedule,check_schedule  
+see my schedule,check_schedule  
+show my calendar,check_schedule  
+start the vacuum,clean_floor  
+clear notifications,clear_notifications  
+close garage door,close_garage  
+decrease contrast,decrease_contrast  
+delete this file,delete_file  
+dim the lights,dim_lights  
+disable do not disturb,dnd_off  
+enable do not disturb,dnd_on  
+edit a document,edit_document  
+turn off the fan,fan_off  
+turn on the fan,fan_on  
+today's date,get_date
+what's the date,get_date
+current time,get_time
+tell me the time,get_time
+what's the time,get_time
+increase contrast,increase_contrast  
+join a meeting,join_meeting  
+turn off the lights,light_off  
+turn on the lights,light_on  
+lock the front door,lock_door  
+lock my screen,lock_screen  
+log out,log_out  
+sign out,log_out  
+make a call,make_call  
+move this file to Desktop,move_file_desktop  
+move this file to Documents,move_file_documents  
+mute sound,mute
+add a new document,new_document  
+create a new document,new_document  
+generate a new document,new_document  
+make a new document,new_document  
+play next song,next_song  
+put on next song,next_song  
+skip song,next_song  
+start next song,next_song  
+stream next song,next_song  
+turn off night light,night_light_off  
+turn on night light,night_light_on  
+access calculator,open_calculator
+fire up calculator,open_calculator
+go to calculator,open_calculator
+launch calculator,open_calculator
+open calculator,open_calculator
+start calculator,open_calculator
+access Calendar,open_calendar
+fire up Calendar,open_calendar
+go to Calendar,open_calendar
+launch Calendar,open_calendar
+open Calendar,open_calendar
+open Google Calendar,open_calendar
+start Calendar,open_calendar
+access camera,open_camera
+fire up camera,open_camera
+go to camera,open_camera
+launch camera,open_camera
+open camera,open_camera
+start camera,open_camera
+access Classroom,open_classroom
+fire up Classroom,open_classroom
+go to Classroom,open_classroom
+launch Classroom,open_classroom
+open Classroom,open_classroom
+start Classroom,open_classroom
+start Google Classroom,open_classroom
+access command prompt,open_cmd
+fire up command prompt,open_cmd
+go to command prompt,open_cmd
+launch command prompt,open_cmd
+open command prompt,open_cmd
+start command prompt,open_cmd
+access control panel,open_control_panel
+go to control panel,open_control_panel
+launch control panel,open_control_panel
+open control panel,open_control_panel
+start control panel,open_control_panel
+access Desktop,open_desktop  
+fire up Desktop,open_desktop  
+go to Desktop,open_desktop  
+launch Desktop,open_desktop  
+open Desktop,open_desktop  
+start Desktop,open_desktop  
+access Discord,open_discord  
+fire up Discord,open_discord  
+go to Discord,open_discord  
+launch Discord,open_discord  
+open Discord,open_discord  
+start Discord,open_discord  
+access Documents folder,open_documents  
+fire up Documents folder,open_documents  
+go to Documents folder,open_documents  
+launch Documents folder,open_documents  
+open Documents folder,open_documents  
+start Documents folder,open_documents  
+access Downloads folder,open_downloads  
+fire up Downloads folder,open_downloads  
+go to Downloads folder,open_downloads  
+launch Downloads folder,open_downloads  
+open Downloads folder,open_downloads  
+start Downloads folder,open_downloads  
+access Google Drive,open_drive
+fire up Google Drive,open_drive
+go to Google Drive,open_drive
+launch Drive,open_drive
+launch Google Drive,open_drive
+open Google Drive,open_drive
+start Google Drive,open_drive
+access Microsoft Excel,open_excel  
+fire up Microsoft Excel,open_excel  
+go to Microsoft Excel,open_excel  
+launch Excel,open_excel  
+launch Microsoft Excel,open_excel  
+open Microsoft Excel,open_excel  
+start Microsoft Excel,open_excel  
+access file explorer,open_explorer
+fire up file explorer,open_explorer
+go to file explorer,open_explorer
+launch file explorer,open_explorer
+open file explorer,open_explorer
+start file explorer,open_explorer
+access Facebook,open_facebook
+fire up Facebook,open_facebook
+go to Facebook,open_facebook
+launch Facebook,open_facebook
+open Facebook,open_facebook
+start Facebook,open_facebook
+access File Explorer,open_file_explorer  
+fire up File Explorer,open_file_explorer  
+go to File Explorer,open_file_explorer  
+launch File Explorer,open_file_explorer  
+open File Explorer,open_file_explorer  
+start File Explorer,open_file_explorer  
+access gallery,open_gallery  
+fire up gallery,open_gallery  
+go to gallery,open_gallery  
+open gallery,open_gallery  
+open my photos,open_gallery  
+start gallery,open_gallery  
+access garage door,open_garage  
+fire up garage door,open_garage  
+go to garage door,open_garage  
+launch garage door,open_garage  
+open garage door,open_garage  
+start garage door,open_garage  
+access GitHub,open_github
+fire up GitHub,open_github
+go to GitHub,open_github
+launch GitHub,open_github
+open GitHub,open_github
+start GitHub,open_github
+access Google,open_google
+fire up Google,open_google
+go to Google,open_google
+launch Google,open_google
+open Google,open_google
+search on Google,open_google
+start Google,open_google
+access Instagram,open_instagram
+fire up Instagram,open_instagram
+go to Instagram,open_instagram
+launch Instagram,open_instagram
+open Instagram,open_instagram
+start Instagram,open_instagram
+access LinkedIn,open_linkedin
+fire up LinkedIn,open_linkedin
+go to LinkedIn,open_linkedin
+launch LinkedIn,open_linkedin
+open LinkedIn,open_linkedin
+start LinkedIn,open_linkedin
+access email,open_mail
+fire up email,open_mail
+go to email,open_mail
+launch Gmail,open_mail
+launch email,open_mail
+open email,open_mail
+open my email,open_mail
+start email,open_mail
+access Google Maps,open_maps
+fire up Google Maps,open_maps
+go to Google Maps,open_maps
+launch Google Maps,open_maps
+launch Maps,open_maps
+open Google Maps,open_maps
+start Google Maps,open_maps
+access Google Meet,open_meet
+fire up Google Meet,open_meet
+go to Google Meet,open_meet
+launch Google Meet,open_meet
+launch Meet,open_meet
+open Google Meet,open_meet
+start Google Meet,open_meet
+access Music folder,open_music  
+fire up Music folder,open_music  
+go to Music folder,open_music  
+launch Music folder,open_music  
+open Music folder,open_music  
+start Music folder,open_music  
+access news,open_news
+check news,open_news
+fire up news,open_news
+go to news,open_news
+open news,open_news
+read latest news,open_news
+start news,open_news
+access Notepad,open_notepad
+fire up Notepad,open_notepad
+go to Notepad,open_notepad
+launch Notepad,open_notepad
+open Notepad,open_notepad
+start Notepad,open_notepad
+access notes,open_notes
+fire up notes,open_notes
+go to notes,open_notes
+launch notes,open_notes
+open notes,open_notes
+start notes,open_notes
+take a note,open_notes
+access Microsoft Outlook,open_outlook  
+fire up Microsoft Outlook,open_outlook  
+go to Microsoft Outlook,open_outlook  
+launch Microsoft Outlook,open_outlook  
+launch Outlook,open_outlook  
+open Microsoft Outlook,open_outlook  
+start Microsoft Outlook,open_outlook  
+access Pictures folder,open_pictures  
+fire up Pictures folder,open_pictures  
+go to Pictures folder,open_pictures  
+launch Pictures folder,open_pictures  
+open Pictures folder,open_pictures  
+start Pictures folder,open_pictures  
+access Microsoft PowerPoint,open_powerpoint  
+fire up Microsoft PowerPoint,open_powerpoint  
+go to Microsoft PowerPoint,open_powerpoint  
+launch Microsoft PowerPoint,open_powerpoint  
+launch PowerPoint,open_powerpoint  
+open Microsoft PowerPoint,open_powerpoint  
+start Microsoft PowerPoint,open_powerpoint  
+access settings,open_settings
+fire up settings,open_settings
+go to settings,open_settings
+launch settings,open_settings
+open settings,open_settings
+start settings,open_settings
+access Skype,open_skype  
+fire up Skype,open_skype  
+go to Skype,open_skype  
+launch Skype,open_skype  
+open Skype,open_skype  
+start Skype,open_skype  
+access Slack,open_slack  
+fire up Slack,open_slack  
+go to Slack,open_slack  
+launch Slack,open_slack  
+open Slack,open_slack  
+start Slack,open_slack  
+access Spotify,open_spotify  
+fire up Spotify,open_spotify  
+go to Spotify,open_spotify  
+launch Spotify,open_spotify  
+open Spotify,open_spotify  
+start Spotify,open_spotify  
+access task manager,open_task_manager
+fire up task manager,open_task_manager
+go to task manager,open_task_manager
+launch task manager,open_task_manager
+open task manager,open_task_manager
+start task manager,open_task_manager
+access Microsoft Teams,open_teams  
+fire up Microsoft Teams,open_teams  
+go to Microsoft Teams,open_teams  
+launch Microsoft Teams,open_teams  
+launch Teams,open_teams  
+open Microsoft Teams,open_teams  
+start Microsoft Teams,open_teams  
+access Telegram,open_telegram  
+fire up Telegram,open_telegram  
+go to Telegram,open_telegram  
+launch Telegram,open_telegram  
+open Telegram,open_telegram  
+start Telegram,open_telegram  
+access terminal,open_terminal
+fire up terminal,open_terminal
+go to terminal,open_terminal
+launch terminal,open_terminal
+open terminal,open_terminal
+start terminal,open_terminal
+access Twitter,open_twitter
+fire up Twitter,open_twitter
+go to Twitter,open_twitter
+launch Twitter,open_twitter
+open Twitter,open_twitter
+start Twitter,open_twitter
+access user settings,open_user_settings  
+fire up user settings,open_user_settings  
+launch user settings,open_user_settings  
+open user settings,open_user_settings  
+start user settings,open_user_settings  
+access Videos folder,open_videos  
+fire up Videos folder,open_videos  
+go to Videos folder,open_videos  
+launch Videos folder,open_videos  
+open Videos folder,open_videos  
+start Videos folder,open_videos  
+access WhatsApp,open_whatsapp
+fire up WhatsApp,open_whatsapp
+go to WhatsApp,open_whatsapp
+launch WhatsApp,open_whatsapp
+open WhatsApp,open_whatsapp
+start WhatsApp,open_whatsapp
+access Microsoft Word,open_word  
+fire up Microsoft Word,open_word  
+go to Microsoft Word,open_word  
+launch Microsoft Word,open_word  
+launch Word,open_word  
+open Microsoft Word,open_word  
+start Microsoft Word,open_word  
+access YouTube,open_youtube
+fire up YouTube,open_youtube
+go to YouTube,open_youtube
+launch YouTube,open_youtube
+open YouTube,open_youtube
+play video on YouTube,open_youtube
+search on YouTube,open_youtube
+start YouTube,open_youtube
+halt music,pause_song  
+hold music,pause_song  
+pause music,pause_song  
+play radio,play_radio  
+put on radio,play_radio  
+start radio,play_radio  
+stream radio,play_radio  
+play a song,play_song
+play music,play_song
+play my favorite song,play_song
+put on music,play_song
+start music,play_song
+stream music,play_song
+play previous song,previous_song  
+put on previous song,previous_song  
+start previous song,previous_song  
+stream previous song,previous_song  
+print this page,print_page  
+record video,record_video  
+rename this file,rename_file  
+repeat this song,repeat_song  
+reboot my laptop,restart_pc
+restart my PC,restart_pc
+restart my computer,restart_pc
+continue music,resume_song  
+resume music,resume_song  
+start again music,resume_song  
+save this file,save_file  
+find this file,search_file  
+locate this file,search_file  
+look for this file,search_file  
+search for this file,search_file  
+find this file in C drive,search_file_c  
+locate this file in C drive,search_file_c  
+look for this file in C drive,search_file_c  
+search for this file in C drive,search_file_c  
+find this file in D drive,search_file_d  
+locate this file in D drive,search_file_d  
+look for this file in D drive,search_file_d  
+search for this file in D drive,search_file_d  
+find this file in Desktop,search_file_desktop  
+locate this file in Desktop,search_file_desktop  
+look for this file in Desktop,search_file_desktop  
+search for this file in Desktop,search_file_desktop  
+find this file in Documents,search_file_documents  
+locate this file in Documents,search_file_documents  
+look for this file in Documents,search_file_documents  
+find this file in Downloads,search_file_downloads  
+locate this file in Downloads,search_file_downloads  
+look for this file in Downloads,search_file_downloads  
+search for this file in Downloads,search_file_downloads  
+find this file in Music,search_file_music  
+locate this file in Music,search_file_music  
+look for this file in Music,search_file_music  
+search for this file in Music,search_file_music  
+find this file in Pictures,search_file_pictures  
+locate this file in Pictures,search_file_pictures  
+look for this file in Pictures,search_file_pictures  
+search for this file in Pictures,search_file_pictures  
+find this file in Videos,search_file_videos  
+locate this file in Videos,search_file_videos  
+look for this file in Videos,search_file_videos  
+search for this file in Videos,search_file_videos  
+find a document,search_files  
+search my files,search_files  
+send a message,send_message  
+alarm clock,set_alarm
+alarm lagado,set_alarm
+create an alarm,set_alarm
+make an alarm,set_alarm
+please set an alaram,set_alarm
+schedule alarm,set_alarm
+schedule an alarm,set_alarm
+set alarm for 1 hour,set_alarm
+set alarm for 15 minutes,set_alarm
+set alarm for 2 hours,set_alarm
+set alarm for 30 minutes,set_alarm
+set alarm for 6:30,set_alarm
+set alarm for 7 AM,set_alarm
+set alarm for 8 PM,set_alarm
+set an alarm,set_alarm
+create dark mode,set_dark_mode  
+make dark mode,set_dark_mode  
+schedule dark mode,set_dark_mode  
+set dark mode,set_dark_mode  
+create light mode,set_light_mode  
+make light mode,set_light_mode  
+schedule light mode,set_light_mode  
+set light mode,set_light_mode  
+schedule a meeting,set_meeting
+add a reminder,set_reminder
+create a reminder,set_reminder
+generate a reminder,set_reminder
+make a reminder,set_reminder
+create thermostat to 22 degrees,set_temperature  
+make thermostat to 22 degrees,set_temperature  
+schedule thermostat to 22 degrees,set_temperature  
+set thermostat to 22 degrees,set_temperature  
+create a timer,set_timer  
+make a timer,set_timer  
+schedule a timer,set_timer  
+set a timer,set_timer  
+add a task,set_todo  
+add a to-do list,set_todo  
+create a to-do list,set_todo  
+generate a to-do list,set_todo  
+make a to-do list,set_todo  
+shuffle songs,shuffle_songs  
+power off my laptop,shutdown_pc
+shut down my PC,shutdown_pc
+turn off my computer,shutdown_pc
+put my PC to sleep,sleep_pc
+sleep mode,sleep_pc
+start Teams meeting,start_meeting  
+video call someone,start_video_call  
+end the vacuum,stop_cleaning  
+stop the vacuum,stop_cleaning  
+terminate the vacuum,stop_cleaning  
+end music,stop_song  
+kill music,stop_song  
+stop music,stop_song  
+terminate music,stop_song  
+switch user,switch_user  
+take a selfie,take_selfie  
+unlock the front door,unlock_door  
+unmute sound,unmute
+decrease volume,volume_down
+lower sound,volume_down
+turn down the volume,volume_down
+increase volume,volume_up
+raise sound,volume_up
+turn up the volume,volume_up
+deactivate WiFi,wifi_off
+disable WiFi,wifi_off
+turn off WiFi,wifi_off
+activate WiFi,wifi_on
+enable WiFi,wifi_on
+turn on WiFi,wifi_on

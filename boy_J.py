@@ -627,7 +627,7 @@ class DesktopMate(QWidget):
 
             for i in range(len(data['text'])):
                 word = data['text'][i].strip().lower()
-                if target_text.lower() in word:
+                if target_text.lower() == word:
                     x = data['left'][i]
                     y = data['top'][i]
                     w = data['width'][i]

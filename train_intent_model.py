@@ -33,7 +33,7 @@ joblib.dump(clf, "intent_model_LR.pkl")
 joblib.dump(embed_model, "embedding_model.pkl")
 print("\n[+] Models saved: intent_model_LR.pkl & embedding_model.pkl")
 
-'''from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
+"""from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
 import matplotlib.pyplot as plt
 
 y_pred = clf.predict(X_test)
@@ -41,4 +41,4 @@ cm = confusion_matrix(y_test, y_pred, labels=clf.classes_)
 disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=clf.classes_)
 disp.plot(xticks_rotation=90)
 plt.title("Confusion Matrix")
-plt.show()'''
+plt.show()"""

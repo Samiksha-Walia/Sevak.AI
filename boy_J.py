@@ -69,20 +69,13 @@ intent_model = joblib.load("intent_model_LR.pkl")
 embed_model = joblib.load("embedding_model.pkl")
 
 AVATAR_VOICE_MAP = {
-    "Japesh": 0,    
-    "Samiksha": 1, 
-    "Samdisha": 2,
-    #"Akshina": 3, 
+    "Sevak": 0,    
+    "Sakhi": 1,  
 }
 
 AVATAR_CLOUD_VOICE_MAP = {
-    "Japesh": "en-US-GuyNeural",
-    "Samiksha": "en-IN-NeerjaNeural",
-    "Samdisha": "en-US-JennyNeural",
-    "Akshina": "en-GB-SoniaNeural",
-    "Sahil": "en-IN-PrabhatNeural",
-    "Simar": "en-US-AndrewNeural",
-    "Sirjan": "en-US-AnaNeural",
+    "Sevak": "en-IN-PrabhatNeural",
+    "Sakhi": "en-US-AnaNeural",
 }
 
 prompt_map = {
@@ -103,7 +96,7 @@ class DesktopMate(QWidget):
         self.setWindowFlags(Qt.FramelessWindowHint | Qt.WindowStaysOnTopHint | Qt.SubWindow)
         self.setAttribute(Qt.WA_TranslucentBackground)
 
-        self.avatar_path = "assets/idle/Japesh"
+        self.avatar_path = "assets/idle/Sevak"
         avatar_name = os.path.basename(self.avatar_path).lower()
         self.idle_frames = self.load_frames(self.avatar_path)
         if not self.idle_frames:
@@ -149,9 +142,9 @@ class DesktopMate(QWidget):
         self.timer.start(150)
 
         self.offset = QPoint()
-        if "japesh" in avatar_name:
+        if "sevak" in avatar_name:
             self.wake_word = "sevak"
-        elif "samiksha" in avatar_name:
+        elif "sakhi" in avatar_name:
             self.wake_word = "sakhi"
         else:
             self.wake_word = "assistant"  # Fallback wake word
@@ -259,9 +252,9 @@ class DesktopMate(QWidget):
     def set_avatar(self, folder):
         new_frames = self.load_frames(folder)
         avatar_name = os.path.basename(folder).lower()
-        if "japesh" in avatar_name:
+        if "sevak" in avatar_name:
             self.wake_word = "sevak"
-        elif "samiksha" in avatar_name:
+        elif "sakhi" in avatar_name:
             self.wake_word = "sakhi"
         else:
             self.wake_word = "assistant"  # default fallback

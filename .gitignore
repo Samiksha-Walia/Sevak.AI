@@ -17,7 +17,7 @@ csv_train.py
 models/
 ni/
 *.mp3
-*.pkl
+
 output.mp3
 voice.py
 voices.txt

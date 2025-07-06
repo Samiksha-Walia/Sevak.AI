@@ -9,3 +9,16 @@ __pycache__/
 .vscode/
 .idea/
 .env.*
+assets/
+etc/
+node_modules/
+ffmpeg-7.1.1-essentials_build/
+csv_train.py
+models/
+ni/
+*.mp3
+*.pkl
+output.mp3
+voice.py
+voices.txt
+intent_model.pkl

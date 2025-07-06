@@ -1,7 +1,7 @@
 
-# 🧠 DesktopMate – AI-Powered Virtual Assistant
+# 🧠 Sevak.AI – AI-Powered Virtual Assistant
 
-**DesktopMate** is an intelligent, emotion-aware virtual desktop assistant built with Python. It integrates speech recognition, real-time emotion detection, avatar animation, and AI-driven responses using Cohere. The assistant offers voice-controlled automation, wake-word activation, and can visually react to the user's emotional state.
+**Sevak.AI** is an intelligent, emotion-aware virtual desktop assistant built with Python. It integrates speech recognition, real-time emotion detection, avatar animation, and AI-driven responses using Cohere. The assistant offers voice-controlled automation, wake-word activation, and can visually react to the user's emotional state.
 
 ## 🚀 Features
 

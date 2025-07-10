@@ -22,3 +22,11 @@ output.mp3
 voice.py
 voices.txt
 intent_model.pkl
+
+# Ignore everything in assets
+assets/*
+
+# But allow Sakhi and Sevak folders inside assets/idle/
+!assets/idle/
+!assets/idle/Sakhi/
+!assets/idle/Sevak/

@@ -54,8 +54,8 @@ project-root/
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/yourusername/DesktopMate.git
-cd DesktopMate
+git clone https://github.com/yourusername/Sevak.AI.git
+cd Sevak.AI
 ````
 
 ### 2. Create a Virtual Environment

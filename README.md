@@ -54,7 +54,7 @@ project-root/
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/yourusername/Sevak.AI.git
+git clone https://github.com/Samiksha-Walia/Sevak.AI.git
 cd Sevak.AI
 ````
 

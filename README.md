@@ -105,9 +105,11 @@ python boy_J.py
 * Improve emotion detection using MediaPipe
 * Cross-platform packaging (e.g., PyInstaller)
 
-## 👤 Author
+## 👤 Contributors
 
 **Samiksha Walia**
 [GitHub](https://github.com/Samiksha-Walia) • [LinkedIn](https://linkedin.com/in/samiksha-walia) 
 
+**Japesh Jhatta**  
+[GitHub](https://github.com/japesh5579) • [LinkedIn](https://www.linkedin.com/in/japesh-jhatta)
 
